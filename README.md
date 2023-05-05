@@ -57,3 +57,9 @@ public class Artist
 ```
 
 == !!Ricordo che SQLite non è un Databse, ma una libreria!! ==
+
+## Facoltativo
+Se volete avere una visione più comoda del vostro Database installare l'estensione SQLite Viewer, l'icona è la sequente:
+
+<img src="https://user-images.githubusercontent.com/116791222/236402603-8a404d5f-95af-44bf-aa82-711673297c89.png"/>
+
