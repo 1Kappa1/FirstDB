@@ -4,7 +4,7 @@
 
 2° Lanciare il visual studio code e aprire la cartella appena creata
 
-3° Lanciare un terminale
+3° Lanciare un terminale in visual studio code (Comando rapido: CTRL + ò)
 
 4° Copiare il seguente comando nel terminale
 
@@ -12,31 +12,29 @@
 dotnet new console 
 ```
 
-5° Una volta terminata la creazione della console aprire Program.cs
+5° Ora cliccare <a href = "https://www.sqlitetutorial.net/sqlite-sample-database/">qui</a>, si aprirà la pagina dove sarà possibile scaricare il database di prova che si troverà nella sezione Download SQLite sample database, quindi scaricarlo
 
-6° Ora cliccare <a href = "https://www.sqlitetutorial.net/sqlite-sample-database/">qui</a>, si aprirà la pagina dove sarà possibile scaricare il database di prova che si troverà nella sezione Download SQLite sample database, quindi scaricarlo
+6° Una volta scaricato spostarlo nella stessa cartella del nostro progetto
 
-7° Una volta scaricato spostarlo nella stessa cartella del nostro progetto
+7° Riaprire la finestra Visual Studio Code aperta in precedenza 
 
-8° Riaprire la finestra Visual Studio Code aperta in precedenza 
-
-9° Installare il plugin per visual studio code di nome SQLite, la cui icona è riportata qui sotto
+8° Installare il plugin per visual studio code di nome SQLite, la cui icona è riportata qui sotto
 
 <img 
 src="https://user-images.githubusercontent.com/116791222/234798006-06c01e35-cd3f-4772-ab83-5b305904634a.png"
 />
 
-10° Fare pulsante destro su chinook.db da dentro Visual Studio Code e cliccare "Open Databse"
+9° Fare pulsante destro su chinook.db da dentro Visual Studio Code e cliccare "Open Databse"
 
-11° Ora entrare nel csproj e cercare `<PackageReference Include="sqlite-net-pc1" Version="1.8.116"`
+10° Ora entrare nel csproj e cercare `<PackageReference Include="sqlite-net-pc1" Version="1.8.116"`
  
-12° Se non è presente copiare e incollare il seguente comando nel terminale:
+11° Se non è presente copiare e incollare il seguente comando nel terminale:
 
 ```
 dotnet add package sqlite-net-pcl
 ``` 
 
-13° Copiare e incollare il seguente codice nel proprio programma e successivamente scrivere nel terminale `dotnet run`:
+12° Copiare e incollare il seguente codice nel proprio programma e successivamente scrivere nel terminale `dotnet run`:
 
 ```
 using SQLite;
